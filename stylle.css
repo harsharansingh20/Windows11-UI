@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+    background-size: cover;
+    overflow: hidden;
+}
+.taskbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f3f3f3;
+    height: 55px;
+    z-index: 110;
+}
+.taskbarright{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.startmenu{
+    position: absolute;
+    bottom: -655px;
+    /* margin-bottom: 50px; */
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s ease-in;
+} 
+.startmenu img{
+    border-radius: 8px;
+}
+            
